@@ -2,7 +2,7 @@ let palabrita;
 let cant_errores = 0;
 let cant_aciertos = 0;
 
-const palabras = [ "Amarillo", "Departamento", "Ventilador", "Vampiro", "Victor", "Giuliana", "Zapatilla", "Remera", "Microfono"];
+const palabras = [ "Amarillo", "Departamento", "Ventilador", "Vampiro", "Victor", "Giuliana", "Zapatilla", "Remera", "Microfono", "Florencia", "Giulianateamo", "Hector", "Secretos", "Nuncaterindas", "Siemprevoyaestar" ];
 
 
 
