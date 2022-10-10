@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    background: url(../AHORCADO/fondo\ circulos\ 2.jpeg) no-repeat center; 
+    background-size: cover;
+    font-family: "Impact", "Arial Narrow Bold", "sans-serif";
+    min-height: 100vh;
+}
+
+header{
+    background: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    color: orange;
+}
+
+main{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    background: rgba(255, 255, 255, .7);
+    display: flex;
+    gap: 30px;
+}
+
+#imagen{
+    width: 500px;
+}
+
+#palabraAdivinar{
+    height: 3em;
+}
+
+#palabraAdivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+
+}
+
+#letras{
+    margin-top: 30px;
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+#letras button{
+    width: 28px;
+    height: 40px;
+    padding: 7px 0;  
+    text-align: center;
+}
