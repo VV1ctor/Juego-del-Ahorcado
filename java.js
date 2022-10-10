@@ -14,7 +14,7 @@ const btn_letras = document.querySelectorAll("#letras button");
 btn.addEventListener("click", iniciar);
 
 function iniciar(event){
-    imagen.src = "../AHORCADO/src/img/ahorcado0.jpg";
+    imagen.src = "ahorcado0.jpg";
     btn.disabled = true;
     cant_errores = 0;
     cant_aciertos = 0;
@@ -68,19 +68,22 @@ function click_letras(event){
   
     if(acerto == false){
         cant_errores++;
-        const source = `../AHORCADO/src/img/ahorcado0${cant_errores}.jpg`;
-        const imagen = id( "#imagen");
+        const source = `../AHORCADO/ahorcado${cant_errores}.jpg`;
         imagen.src = source;
     }
-    if(cant_errores == 5){
-      id("resultado").innerHTML = "Perdiste, la palabra era" + palabrita;
+
+    if(cant_errores == 6){
+      id("resultado").innerHTML = "Perdiste, la palabra era " + palabrita;
+      alert("Perdiste, la palabra era " + palabrita)
       game_over();
 
-    }else if( cant_aciertos == palabrita.length)
+    }else if( cant_aciertos == palabrita.length){
       id("resultado").innerHTML = "¡Ganaste, juega de nuevo!";
+      alert("¡Ganaste, juega de nuevo!");
       game_over();
-
-  console.log( palabrita);
+    }
+      
+  console.log( "la letra" + letra + " en la palabra" + palabra + "existe?: " + acerto);
 
 }
 
@@ -90,3 +93,5 @@ function game_over(){
   }
   btn.disabled = false; 
 }
+
+game_over();
