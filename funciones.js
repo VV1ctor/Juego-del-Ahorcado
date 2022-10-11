@@ -1,8 +1,4 @@
 
-function mostrar(){
-    document.querySelector("main").style.display = "";
-}
-
 
 function id(str) {
     return document.getElementById(str);

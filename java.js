@@ -14,6 +14,7 @@ const btn_letras = document.querySelectorAll("#letras button");
 btn.addEventListener("click", iniciar);
 
 function iniciar(event){
+
     imagen.src = "ahorcado0.jpg";
     btn.disabled = true;
     cant_errores = 0;

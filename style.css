@@ -11,6 +11,7 @@ header{
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 
@@ -26,17 +27,17 @@ main{
     background: rgba(255, 255, 255, .7);
     display: flex;
     gap: 30px;
-    display: none;
+  
 }
 
 #imagen{
     width: 500px;
-    display: none;
+   
 }
 
 #palabraAdivinar{
     height: 3em;
-    display: none;
+ 
 }
 
 #palabraAdivinar span{
@@ -46,8 +47,7 @@ main{
     width: 30px;
     text-align: center;
     margin-right: 6px;
-    display: inline-block;
-    display: none;
+    display: inline-block;   
 
 }
 
@@ -57,7 +57,6 @@ main{
     gap: 7px;
     flex-wrap: wrap;
     text-align: center;
-    display: none;
 
 }
 
@@ -66,25 +65,15 @@ main{
     height: 40px;
     padding: 7px 0;  
     text-align: center;
-    display: none;
+ 
 }
 
-#Empezar{
-    
-    width: 25%;
-    margin-top: 10%;
-    margin-left: 38%;
-    border-radius: 15px;
-    padding: 15px;
-    cursor: pointer;
-  
-}
 .boton{
     width: 25%;
     border-radius: 15px;
     padding: 15px;
-    display: none;
     cursor: pointer;
+    
 }
 
 footer{
