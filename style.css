@@ -1,6 +1,5 @@
 body{    
-    margin:0;
-    background: url(../AHORCADO/fondo\ circulos\ 2.jpeg)  no-repeat center;
+    background: "../AHORCADO/Fondo.png"  no-repeat center;
     background-size: cover;
     font-family: "Impact", "Arial Narrow Bold", "sans-serif";
     min-height: 100vh;
@@ -27,7 +26,7 @@ main{
     background: rgba(255, 255, 255, .7);
     display: flex;
     gap: 30px;
-  
+
 }
 
 #imagen{
